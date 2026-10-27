@@ -1,0 +1,176 @@
+
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="theme-color" content="#f4e8e4">
+<title>found you, again.</title>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+<header class="topbar">
+  <div class="brand">a little book for you <span class="heart">♡</span></div>
+  <button class="music" id="musicBtn">♫ <span id="musicLabel">play panasea</span></button>
+</header>
+
+<main>
+<div class="book" aria-live="polite">
+
+  <!-- HALAMAN 1: COVER -->
+  <section class="page cover active" data-page="0">
+    <div class="eyebrow">a little story about us</div>
+    <h1>found you,<br><em>again.</em></h1>
+    <p class="intro">Untuk seseorang yang pernah menjadi bagian dari ceritaku, lalu kutemukan lagi dengan cara yang tak pernah kuduga.</p>
+    <div class="decor">✧ ♡ ✧</div>
+    <button class="primary" onclick="goTo(1)">buka halaman pertama →</button>
+    <div class="tiny">take your time. this little book is just for you.</div>
+  </section>
+
+  <!-- HALAMAN 2: EMPAT TAHUN TERPISAH -->
+  <section class="page" data-page="1">
+    <div class="label">01 — four years apart</div>
+    <h2>Somehow,<br>we met again.</h2>
+    <p>Dulu, kita pernah saling mengenal begitu dekat. Kita punya cerita, tanggal-tanggal yang berarti, dan hal-hal kecil yang mungkin saat itu terasa biasa saja.</p>
+    <p>Lalu hidup membawa kita ke arah masing-masing. Kita menjadi asing, tidak saling menyapa, dan menjalani hari-hari tanpa tahu kabar satu sama lain.</p>
+    <p>Empat tahun bukan waktu yang sebentar. Banyak hal mungkin berubah, banyak cerita baru yang kita jalani. Aku bahkan sempat lupa beberapa hal tentangmu.</p>
+    <p>Tapi ternyata, kita bisa bertemu lagi. Bukan untuk berpura-pura bahwa masa lalu tidak pernah terjadi, melainkan untuk mengenal siapa kita sekarang—pelan-pelan, dari awal lagi.</p>
+  </section>
+
+  <!-- HALAMAN 3: KENANGAN KECIL -->
+  <section class="page" data-page="2">
+    <div class="label">02 — little things</div>
+    <h2>It's the little things<br>that stay.</h2>
+    <p>Ada hal-hal kecil yang kelihatannya sederhana, tetapi ternyata bisa bertahan lama di ingatan.</p>
+
+    <div class="cards">
+      <article class="card">
+        <div class="icon">✧</div>
+        <h3>Things you remember</h3>
+        <p>Kamu masih ingat hal-hal kecil tentangku—bahkan beberapa yang sudah kulupakan sendiri. Aku nggak tahu bagaimana menjelaskannya, tapi itu membuatku tersentuh.</p>
+      </article>
+
+      <article class="card">
+        <div class="icon">♡</div>
+        <h3>Ordinary days</h3>
+        <p>Pulang sekolah bersama, teleponan, video call, dan waktu sederhana yang sekarang terasa punya arti baru.</p>
+      </article>
+
+      <article class="card">
+        <div class="icon">☾</div>
+        <h3>A new beginning</h3>
+        <p>Kita tidak harus menjadi seperti dulu. Kita bisa saling mengenal lagi sebagai diri kita yang sekarang.</p>
+      </article>
+
+      <article class="card">
+        <div class="icon">✦</div>
+        <h3>One more chance</h3>
+        <p>Bukan untuk mengulang semuanya, tetapi untuk melihat apa yang bisa kita bangun hari ini.</p>
+      </article>
+    </div>
+  </section>
+
+  <!-- HALAMAN 4: KATA-KATANYA -->
+  <section class="page quote-page" data-page="3">
+    <div class="label">03 — your words</div>
+    <div class="quote">“Jika kita saling melupakan, mari saling menemukan dan saling berkenalan lagi.”</div>
+    <p>A sentence I want to keep close <span class="heart">♡</span></p>
+  </section>
+
+  <!-- HALAMAN 5: SURAT -->
+  <section class="page" data-page="4">
+    <div class="label">04 — a letter for you</div>
+    <h2>A letter,<br>from me to you.</h2>
+
+    <div class="letter">
+      <p class="salutation">Hai, kamu.</p>
+
+      <p>Lucu, ya? Kita pernah sedekat itu, kemudian menjadi dua orang asing yang bahkan nggak saling menyapa selama bertahun-tahun. Kita melanjutkan hidup masing-masing, bertemu orang-orang baru, dan mungkin sempat berpikir bahwa cerita kita memang sudah selesai.</p>
+
+      <p>Tapi ternyata, kita bertemu lagi.</p>
+
+      <p>Aku nggak tahu bagaimana caranya menjelaskan perasaanku ketika menyadari bahwa kamu masih mengingat hal-hal kecil tentangku. Hal-hal yang bahkan sudah aku lupakan sendiri.</p>
+
+      <p>Aku ingin meminta maaf sekali lagi atas apa yang pernah terjadi di antara kita. Aku tahu ada rasa sakit yang pernah aku tinggalkan, dan aku nggak bisa memutar waktu untuk mengubah keputusan-keputusan yang dulu aku buat. Terima kasih karena sudah berdamai dengan masa lalu kita.</p>
+
+      <p>Aku nggak ingin kehadiranku sekarang membuatmu kembali mengingat hal-hal yang menyakitkan. Aku hanya ingin menghargai kesempatan yang kita punya hari ini.</p>
+
+      <p>Aku senang bisa mengenalmu lagi. Mendengar suaramu, menghabiskan waktu bersamamu, pulang sekolah bersama, dan melakukan hal-hal sederhana yang ternyata bisa membuat hari-hariku terasa berbeda.</p>
+
+      <p>Aku nggak tahu ke mana cerita ini akan membawa kita. Aku juga nggak ingin terburu-buru memberi nama pada sesuatu yang sedang kita jalani. Untuk sekarang, aku hanya ingin menikmati kesempatan untuk mengenalmu sekali lagi, kali ini dengan lebih baik.</p>
+
+      <p>Kalau suatu hari nanti kita kembali merasa asing, aku harap kita masih punya keberanian untuk saling menyapa. Kalau ternyata masih banyak hal yang belum kita ketahui tentang satu sama lain, mari kita pelajari perlahan-lahan.</p>
+
+      <p>Sebab, ternyata, mengenal seseorang untuk kedua kalinya bisa terasa seindah ini.</p>
+
+      <p>Terima kasih sudah menjadi bagian dari ceritaku, dulu dan sekarang.</p>
+
+      <p>And if life ever brings us back to this moment, I hope we'll remember that once, after all those years, we found each other again.</p>
+
+      <p class="signoff">with all the things i couldn't say back then,<br>from someone who's grateful to know you again. ♡</p>
+    </div>
+  </section>
+
+  <!-- HALAMAN 6: FOTO DIA -->
+  <section class="page photo-page" data-page="5">
+    <div class="label">05 — a little piece of you</div>
+    <h2>Someone I'll always<br>remember.</h2>
+
+    <p class="photo-intro">Some memories deserve their own little place.</p>
+
+    <div class="photo-frame">
+      <span class="tape tape-one"></span>
+      <span class="tape tape-two"></span>
+
+      <img src="foto1.jpg" alt="Foto seseorang yang kutemukan lagi"
+           onerror="this.style.display='none'; document.getElementById('photoPlaceholder').style.display='flex';">
+
+      <div class="photo-placeholder" id="photoPlaceholder">
+        <span>♡</span>
+        <p>your photo goes here</p>
+        <small>foto1.jpg</small>
+      </div>
+
+      <div class="photo-caption">a memory, kept close ♡</div>
+    </div>
+
+    <p class="photo-note">
+      Dari sekian banyak hal yang pernah datang dan pergi,
+      ada kamu yang masih punya tempat tersendiri di cerita ini.
+    </p>
+
+    <div class="decor">✧ ♡ ✧</div>
+  </section>
+
+  <!-- HALAMAN 7: PENUTUP -->
+  <section class="page close-page" data-page="6">
+    <div class="eyebrow">and this is not the end</div>
+    <h2>Maybe we don't have to know the whole story yet.</h2>
+    <p>For now, I'm just glad our paths crossed again.</p>
+    <div class="decor">♡</div>
+    <button class="primary" onclick="goTo(0)">baca lagi dari awal ↺</button>
+  </section>
+
+  <!-- NAVIGASI -->
+  <div class="controls">
+    <button class="navbtn" id="prevBtn" onclick="changePage(-1)" disabled>← sebelumnya</button>
+
+    <div class="page-info">
+      <div class="counter" id="counter">HALAMAN 1 DARI 7</div>
+      <div class="dots" id="dots"></div>
+    </div>
+
+    <button class="navbtn" id="nextBtn" onclick="changePage(1)">berikutnya →</button>
+  </div>
+
+</div>
+</main>
+
+<footer>MADE WITH CARE, JUST FOR YOU · found you, again.</footer>
+
+<audio id="song" src="panasea.mp3" preload="none" loop></audio>
+
+<script src="script.js"></script>
+</body>
+</html>
